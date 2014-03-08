@@ -21,7 +21,7 @@
 //Color of items in navigation bar
 + (UIColor*)colorOfNavigationItems;
 //Color of letter separator
-+ (UIColor*)colorOfSectionIndexColorFileList
++ (UIColor*)colorOfSectionIndexColorFileList;
 //Tint color of tool bar
 + (UIColor*)colorOfToolBar;
 //Color of background view in toolBar bar, only for iOS 7 for transparency
@@ -37,7 +37,7 @@
 //Tint color fo selected tab bar item
 + (UIColor*)colorOfTintSelectedUITabBar;
 //Tint color fo non selected tab bar item
-+ (UIColor*)colorOfTintNonSelectedUITabBar
++ (UIColor*)colorOfTintNonSelectedUITabBar;
 
 //SETTINGS VIEW
 
@@ -55,13 +55,13 @@
 //Background color of top of login view, in logo image view
 + (UIColor*)colorOfLoginTopBackground;
 //Background color of login button
-+ (UIColor*)colorOfLoginButtonBackground
++ (UIColor*)colorOfLoginButtonBackground;
 //Text color of login button
-+ (UIColor*)colorOfLoginButtonTextColor
++ (UIColor*)colorOfLoginButtonTextColor;
 //Text color of url in login view
 + (UIColor*)colorOfURLUserPassword;
 //Text color of login text
-+ (UIColor*)colorOfLoginText ;
++ (UIColor*)colorOfLoginText;
 //Text color of error credentials
 + (UIColor*)colorOfLoginErrorText;
 //Text color of server error
@@ -72,12 +72,14 @@
 
 //Text color of selected folder
 + (UIColor*)colorOfTxtSelectFolderToolbar;
+
 //WEB VIEW
 
 //Color of webview background
 + (UIColor*)colorOfWebViewBackground;
-//+ (UIColor*)colorOfCustomButtonBackgroundNormal;
-//+ (UIColor*)colorOfCustomButtonBackgroundHighlighted;
+
+//DETAIL VIEW (iPAD)
+
 + (UIColor*)colorOfBackgroundDetailViewiPad;
 
 

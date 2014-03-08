@@ -2,21 +2,20 @@
 //  Customization.h
 //  Owncloud iOs Client
 //
-//  Created by OWNBRANDER on 2014-02-13 13:56:34
+//  Created by OWNBRANDER on 2014-03-08 19:30:58 UTC
 //
 //
 
 
 //URLs Setting
 //ios_settings_help_url
-#define k_help_url @"http://www.ljasda.com"
+#define k_help_url @"http://www.sofdsdof.es"
 #define k_recomended_url @"http://owncloud.com/mobile/recommend"
 #define k_send_feedback @"http://owncloud.com/mobile/feedback"
 
 //Hide url server
 //ios_settings_server_user
-#define k_hide_url_server NO
-NO
+#define k_hide_url_server YES
 
 //Set a default url server. It must be obligatory if we hide the url server (#define k_hide_url_server YES)
 #define k_default_url_server @""
@@ -24,11 +23,10 @@ NO
 
 //ios_settings_multiaccount_value
 //Show multiaccount or disconnect
-#define k_multiaccount_available YES
-NO
+#define k_multiaccount_available NO
 
 //Appname
-#define k_appname @"thinetic"
+#define k_appname @"fer"
 
 
 //Appversion
@@ -45,7 +43,6 @@ NO
 
 //Have SAML active
 #define k_is_sso_active NO
-NO
 
 //OAuth server
 #define k_oauth_login @"http://owncloud.tuxed.net/oauth/php-oauth/authorize.php?response_type=code&client_id=com.demo.test.my&scope=&redirect_uri=owncloud://callback"
@@ -56,17 +53,17 @@ NO
 
 //Mail feedback
 //ios_settings_email_address
-#define k_mail_feedback @"asdas@aldads.com"
+#define k_mail_feedback @"asdas@aldads.estitodasLECHES"
 
 
 //Social
-#define k_download_url_short @""
-#define k_download_url_long @""
+#define k_download_url_short @"http://aklsjd"
+#define k_download_url_long @"http://adhas"
 #define k_twitter_user @""
 
 
 //Minimun files until show letters on separators
-#define k_minimun_files_to_show_separators 
+#define k_minimun_files_to_show_separators 20
 //show logo or name on title of file list
 #define k_show_logo_on_title_file_list YES
 
@@ -77,10 +74,10 @@ NO
 #define k_buy_more_storage_url @"http://owncloud.com/mobile/help"
 
 //Show impressum
-#define k_show_imprint_option_on_settings NO
+#define k_show_imprint_option_on_settings YES
 
 //Show social
-#define k_show_recommend_option_on_settings NO
+#define k_show_recommend_option_on_settings YES
 
 
 //Buy more storage company name
@@ -89,14 +86,17 @@ NO
 //Customice UITabBar
 #define k_is_customize_uitabbar YES
 
+//Customize Unselected UITabBarItems (The images of tabBar should be the unseleted tabs)
+#define k_is_customize_unselectedUITabBarItems NO
+
 //Set Image on Preview Bottom toolBar on iPhone
-#define k_set_image_on_preview_bottom_toolBar_on_iPhone NO
+#define k_set_image_on_preview_bottom_toolBar_on_iPhone YES
 
 //Impressum is a File
 #define k_impressum_is_file NO
 
 //Impressum url if is not a file
-#define k_impressum_url @""
+#define k_impressum_url @"http://impresium.eseseseetitolechecita"
 
 
 //Customice recomend mail
@@ -124,6 +124,6 @@ NO
 #define k_text_to_autocomplete @"cloud.md.de"
 
 //Number of uploads shown in recents tab from the database
-#define k_number_uploads_shown 
+#define k_number_uploads_shown 30
 //Set text of status bar white only for iOS 7. YES = White | NO = Black
 #define k_is_text_status_bar_white NO

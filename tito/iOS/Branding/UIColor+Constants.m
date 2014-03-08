@@ -84,12 +84,12 @@
 
 //Cell background color in some cells of settings view
 +(UIColor*)colorOfBackgroundButtonOnList {
-    return [UIColor whiteColorblackColor];
+    return [UIColor colorWithRed:255/256.0f green:255/256.0f blue:255/256.0f alpha:1.0];
 }
 
 //Text color in some cells of settings view
 +(UIColor*)colorOfTextButtonOnList {
-    return [UIColor blackColorblackColor];
+    return [UIColor colorWithRed:0/256.0f green:0/256.0f blue:0/256.0f alpha:1.0];
 }
 
 //LOGIN VIEW
@@ -120,17 +120,17 @@
 
 //Text color of login text
 + (UIColor*)colorOfLoginText {
-     return [UIColor whiteColorblackColor];
+     return [UIColor colorWithRed:255/256.0f green:255/256.0f blue:255/256.0f alpha:1.0];
 }
 
 //Text color of error credentials
 + (UIColor*)colorOfLoginErrorText{
-    return [UIColor whiteColorblackColor];
+    return [UIColor colorWithRed:255/256.0f green:255/256.0f blue:255/256.0f alpha:1.0];
 }
 
 //Text color of server error
 + (UIColor*)colorOfServerErrorText{
-    return [UIColor whiteColorblackColor];
+    return [UIColor colorWithRed:255/256.0f green:255/256.0f blue:255/256.0f alpha:1.0];
 }
 
 //FILE LIST
