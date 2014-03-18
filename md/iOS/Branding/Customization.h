@@ -2,7 +2,7 @@
 //  Customization.h
 //  ownCloud iOs Client
 //
-//  Created by OWNBRANDER on 2014-03-18 11:39:53 UTC
+//  Created by OWNBRANDER on 2014-03-18 11:45:41 UTC
 //
 //
 
@@ -18,7 +18,7 @@
 #define k_hide_url_server YES
 
 //Set a default url server. It must be obligatory if we hide the url server (#define k_hide_url_server YES)
-#define k_default_url_server @"asd"
+#define k_default_url_server @"asdIOS"
 
 
 //ios_settings_multiaccount_value
