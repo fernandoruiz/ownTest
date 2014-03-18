@@ -2,7 +2,7 @@
 //  Customization.h
 //  ownCloud iOs Client
 //
-//  Created by OWNBRANDER on 2014-03-18 11:45:41 UTC
+//  Created by OWNBRANDER on 2014-03-18 11:46:32 UTC
 //
 //
 
@@ -15,7 +15,7 @@
 
 //Hide url server
 //ios_settings_server_user
-#define k_hide_url_server YES
+#define k_hide_url_server NO
 
 //Set a default url server. It must be obligatory if we hide the url server (#define k_hide_url_server YES)
 #define k_default_url_server @"asdIOS"
