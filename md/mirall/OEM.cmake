@@ -1,4 +1,4 @@
-set( APPLICATION_SHORTNAME  "shortName" )
+set( APPLICATION_SHORTNAME  "shortNameNew" )
 set( APPLICATION_NAME       "asdasdasdasd" )
 set( APPLICATION_EXECUTABLE "kljsadf"        )
 set( APPLICATION_DOMAIN     "domain.com"          )

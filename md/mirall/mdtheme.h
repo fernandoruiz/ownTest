@@ -29,10 +29,10 @@ public:
 	//QString overrideServerUrl() const { return QLatin1String(""); }
 
 
-    QColor wizardHeaderBackgroundColor() const { return QColor("#817DFF"); }
-    QColor wizardHeaderTitleColor() const { return QColor("#ffffff"); }
-    QPixmap wizardHeaderLogo() const { return QPixmap(":/mirall/theme/colored/wizard_logo.png"); }
-    bool singleSyncFolder() { return false; }
+    QColor wizardHeaderBackgroundColor() const { return QColor("#D9E8F2"); }
+    QColor wizardHeaderTitleColor() const { return QColor("#FF29B8"); }
+    QPixmap wizardHeaderLogo() const { return applicationIcon().pixmap(64); }
+    bool singleSyncFolder() { return true; }
 };
 
 } // namespace mirall
