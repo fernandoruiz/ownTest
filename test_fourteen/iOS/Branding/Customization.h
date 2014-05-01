@@ -2,7 +2,7 @@
 //  Customization.h
 //  ownCloud iOs Client
 //
-//  Created by OWNBRANDER on 2014-04-13 11:07:41 UTC
+//  Created by OWNBRANDER on 2014-04-13 11:56:11 UTC
 //
 //
 
@@ -13,7 +13,7 @@
 //URLs Setting
 //ios_settings_help_url
 #define k_show_help_option_on_settings NO
-#define k_help_url @"asdasd"
+#define k_help_url @"www.googlasd.es"
 #define k_recomended_url @"http://owncloud.com/mobile/recommend"
 #define k_send_feedback @"http://owncloud.com/mobile/feedback"
 
@@ -27,7 +27,7 @@
 
 //ios_settings_multiaccount_value
 //Show multiaccount or disconnect
-#define k_multiaccount_available NO
+#define k_multiaccount_available YES
 
 
 //Have icon on backbutton
@@ -40,7 +40,7 @@
 #define k_is_oauth_active NO
 
 //Have SAML active
-#define k_is_sso_active NO
+#define k_is_sso_active YES
 
 //OAuth server
 #define k_oauth_login @"http://owncloud.tuxed.net/oauth/php-oauth/authorize.php?response_type=code&client_id=com.demo.test.my&scope=&redirect_uri=owncloud://callback"
@@ -51,7 +51,7 @@
 
 //Mail feedback
 //ios_settings_email_address
-#define k_mail_feedback @"asdas@aldads.estitodasLECHES"
+#define k_mail_feedback @"ads@sdf.es"
 
 
 //Social
@@ -72,7 +72,7 @@
 #define k_buy_more_storage_url @"http://owncloud.com/mobile/help"
 
 //Show impressum
-#define k_show_imprint_option_on_settings YES
+#define k_show_imprint_option_on_settings NO
 
 //Show social
 #define k_show_recommend_option_on_settings NO
@@ -94,7 +94,7 @@
 #define k_impressum_is_file NO
 
 //Impressum url if is not a file
-#define k_impressum_url @"http://impresium.eseseseetitolechecita"
+#define k_impressum_url @""
 
 
 //Customice recomend mail
@@ -122,6 +122,6 @@
 #define k_text_to_autocomplete @"cloud.md.de"
 
 //Number of uploads shown in recents tab from the database
-#define k_number_uploads_shown 12
+#define k_number_uploads_shown 24
 //Set text of status bar white only for iOS 7. YES = White | NO = Black
 #define k_is_text_status_bar_white NO
