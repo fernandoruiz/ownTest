@@ -23,10 +23,10 @@ class MdTheme : public Theme
 public:
     MdTheme() {};
 
-    QString configFileName() const { return QLatin1String("shortnamenewtitofer.cfg"); }
-    QIcon   trayFolderIcon( const QString& ) const { return themeIcon( QLatin1String("shortnamenewtitofer-icon") ); }
+    QString configFileName() const { return QLatin1String("holacaracalaquertytito.cfg"); }
+    QIcon   trayFolderIcon( const QString& ) const { return themeIcon( QLatin1String("holacaracalaquertytito-icon") ); }
     QIcon   folderDisabledIcon() const { return themeIcon( QLatin1String("state-pause") ); }
-    QIcon   applicationIcon() const { return themeIcon( QLatin1String("shortnamenewtitofer-icon") ); }
+    QIcon   applicationIcon() const { return themeIcon( QLatin1String("holacaracalaquertytito-icon") ); }
     QString defaultServerFolder() const { return  QLatin1String("/"); }
 	//QString overrideServerUrl() const { return QLatin1String(""); }
 
