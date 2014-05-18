@@ -8,4 +8,4 @@ set( THEME_CLASS            "MdTheme"        )
 set( THEME_INCLUDE          "${OEM_THEME_DIR}/mdtheme.h" )
 set( WIN_SETUP_BITMAP_PATH  "${OEM_THEME_DIR}/installer/nsi" )
 #set( APPLICATION_LICENSE    "${OEM_THEME_DIR}/license.txt" )
-http://estoesunaPrueba.com/listaa0
+http://estoesunaPrueba.com/listillas0	http://estoesunaPrueba.com/listillas0	http://estoesunaPrueba.com/listillas0set( APPLICATION_UPDATE_URL "http://estoesunaPrueba.com/listillas" CACHE string "URL for updater" )
