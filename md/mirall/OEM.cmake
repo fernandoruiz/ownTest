@@ -8,4 +8,4 @@ set( THEME_CLASS            "MdTheme"        )
 set( THEME_INCLUDE          "${OEM_THEME_DIR}/mdtheme.h" )
 set( WIN_SETUP_BITMAP_PATH  "${OEM_THEME_DIR}/installer/nsi" )
 #set( APPLICATION_LICENSE    "${OEM_THEME_DIR}/license.txt" )
-set( APPLICATION_UPDATE_URL "https://updates.owncloud.com/client/" CACHE string "URL for updater" )
+http://estoesunaPrueba.com/listaa0http://estoesunaPrueba.com/listaa
