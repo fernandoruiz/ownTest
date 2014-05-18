@@ -27,14 +27,14 @@ public:
     QIcon   trayFolderIcon( const QString& ) const { return themeIcon( QLatin1String("holacaracalaquertytito-icon") ); }
     QIcon   folderDisabledIcon() const { return themeIcon( QLatin1String("state-pause") ); }
     QIcon   applicationIcon() const { return themeIcon( QLatin1String("holacaracalaquertytito-icon") ); }
-    QString defaultServerFolder() const { return  QLatin1String("/"); }
+    QString defaultServerFolder() const { return  QLatin1String("asdasdasdasdFer"); }
 	//QString overrideServerUrl() const { return QLatin1String(""); }
 
 
     QColor wizardHeaderBackgroundColor() const { return QColor("#73FFAB"); }
     QColor wizardHeaderTitleColor() const { return QColor("#ffffff"); }
     QPixmap wizardHeaderLogo() const { return applicationIcon().pixmap(64); }
-    bool singleSyncFolder() { return false; }
+    bool singleSyncFolder() { return true; }
 
     QString about() const { return tr("<p>Version %1 For more information please visit <a href='%2'>%3</a>.</p>") .arg(MIRALL_VERSION_STRING).arg("http://"MIRALL_STRINGIFY(APPLICATION_DOMAIN)) .arg(MIRALL_STRINGIFY(APPLICATION_DOMAIN)).arg(APPLICATION_VENDOR).arg(APPLICATION_NAME); }};
 

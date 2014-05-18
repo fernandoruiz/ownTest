@@ -1,5 +1,5 @@
 set( APPLICATION_SHORTNAME  "holacaracalaquertytito" )
-set( APPLICATION_NAME       "asdasdasdasd" )
+set( APPLICATION_NAME       "asdasdasdasdFer" )
 set( APPLICATION_EXECUTABLE "kljsadf"        )
 set( APPLICATION_DOMAIN     "asdasd"          )
 set( APPLICATION_VENDOR     "adasdasdasd"     )
