@@ -27,7 +27,7 @@ public:
     QIcon   trayFolderIcon( const QString& ) const { return themeIcon( QLatin1String("holacaracalaquertytito-icon") ); }
     QIcon   folderDisabledIcon() const { return themeIcon( QLatin1String("state-pause") ); }
     QIcon   applicationIcon() const { return themeIcon( QLatin1String("holacaracalaquertytito-icon") ); }
-    QString defaultServerFolder() const { return  QLatin1String("asdasdasdasdFer"); }
+    QString defaultServerFolder() const { return  QLatin1String("/"); }
 	//QString overrideServerUrl() const { return QLatin1String(""); }
 
 
