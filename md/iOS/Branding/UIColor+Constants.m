@@ -58,6 +58,12 @@
     }
 }
 
+//STATUS BAR
+//Color of background in custom status bar, only for iOS 7
++ (UIColor*)colorOfBackgroundStatusBarNotification {
+    return [UIColor colorWithRed:55/255.0f green:70/255.0f blue:89/255.0f alpha:1.0];
+}
+
 //TAB BAR
 
 //Tint color of tab bar
@@ -67,12 +73,12 @@
 
 //Tint color fo selected tab bar item
 + (UIColor*)colorOfTintSelectedUITabBar {
-    return [UIColor colorWithRed:234/255.0f green:128/255.0f blue:255/255.0f alpha:1.0];
+    return [UIColor colorWithRed:255/255.0f green:255/255.0f blue:255/255.0f alpha:1.0];
 }
 
 //Tint color for non selected tab bar item (only works with the labels)
-+ (UIColor*)colorOfTintNonSelectedUITabBar {  
-    return [UIColor colorWithRed:61/255.0f green:119/255.0f blue:255/255.0f alpha:1.0];
++ (UIColor*)colorOfTintNonSelectedUITabBar {
+    return [UIColor colorWithRed:0/255.0f green:0/255.0f blue:0/255.0f alpha:1.0];
 }
 
 //SETTINGS VIEW
@@ -96,41 +102,41 @@
 
 //Background color of login view
 + (UIColor*)colorOfLoginBackground{
-    return [UIColor colorWithRed:125/255.0f green:206/255.0f blue:240/255.0f alpha:1.0];
+    return [UIColor colorWithRed:245/255.0f green:245/255.0f blue:241/255.0f alpha:1.0];
 }
 
 //Background color of top of login view, in logo image view
 + (UIColor*)colorOfLoginTopBackground {
-    return [UIColor colorWithRed:231/255.0f green:242/255.0f blue:248/255.0f alpha:1.0];
+    return [UIColor colorWithRed:255/255.0f green:255/255.0f blue:255/255.0f alpha:1.0];
 }
 
-+ (UIColor*)colorOfLoginButtonBackground {   
-    return [UIColor colorWithRed:239/255.0f green:239/255.0f blue:239/255.0f alpha:1.0];
++ (UIColor*)colorOfLoginButtonBackground {
+    return [UIColor colorWithRed:92/255.0f green:179/255.0f blue:255/255.0f alpha:1.0];
 }
 
 //Log in button text color (UIColor+Constants.m)
 + (UIColor*)colorOfLoginButtonTextColor {
-    return [UIColor colorWithRed:0/255.0f green:0/255.0f blue:0/255.0f alpha:1.0];
+    return [UIColor colorWithRed:255/255.0f green:255/255.0f blue:255/255.0f alpha:1.0];
 }
 
 //Text color of url in login view
 + (UIColor*)colorOfURLUserPassword{
-    return [UIColor colorWithRed:60/255.0f green:60/255.0f blue:59/255.0f alpha:1.0];
+    return [UIColor colorWithRed:0/255.0f green:0/255.0f blue:0/255.0f alpha:0.7];
 }
 
 //Text color of login text
 + (UIColor*)colorOfLoginText {
-     return [UIColor colorWithRed:255/255.0f green:255/255.0f blue:255/255.0f alpha:1.0];
+     return [UIColor colorWithRed:96/255.0f green:133/255.0f blue:154/255.0f alpha:1.0];
 }
 
 //Text color of error credentials
 + (UIColor*)colorOfLoginErrorText{
-    return [UIColor colorWithRed:255/255.0f green:255/255.0f blue:255/255.0f alpha:1.0];
+    return [UIColor colorWithRed:96/255.0f green:133/255.0f blue:154/255.0f alpha:1.0];
 }
 
 //Text color of server error
 + (UIColor*)colorOfServerErrorText{
-    return [UIColor colorWithRed:255/255.0f green:255/255.0f blue:255/255.0f alpha:1.0];
+    return [UIColor colorWithRed:96/255.0f green:133/255.0f blue:154/255.0f alpha:1.0];
 }
 
 //FILE LIST

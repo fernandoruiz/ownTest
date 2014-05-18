@@ -29,6 +29,9 @@
 //Tint color of tool bar buttons
 + (UIColor*)colorOfToolBarButtons;
 
+//STATUS BAR
+//Color of background in custom status bar, only for iOS 7
++ (UIColor*)colorOfBackgroundStatusBarNotification;
 
 //TAB BAR
 

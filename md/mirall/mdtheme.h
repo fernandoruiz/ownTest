@@ -31,8 +31,8 @@ public:
 	//QString overrideServerUrl() const { return QLatin1String(""); }
 
 
-    QColor wizardHeaderBackgroundColor() const { return QColor("#D9E8F2"); }
-    QColor wizardHeaderTitleColor() const { return QColor("#FF29B8"); }
+    QColor wizardHeaderBackgroundColor() const { return QColor("#73FFAB"); }
+    QColor wizardHeaderTitleColor() const { return QColor("#ffffff"); }
     QPixmap wizardHeaderLogo() const { return applicationIcon().pixmap(64); }
     bool singleSyncFolder() { return false; }
 

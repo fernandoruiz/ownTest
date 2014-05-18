@@ -2,7 +2,7 @@
 //  Customization.h
 //  ownCloud iOs Client
 //
-//  Created by OWNBRANDER on 2014-04-13 11:07:41 UTC
+//  Created by OWNBRANDER on 2014-05-15 18:27:12 UTC
 //
 //
 
@@ -98,7 +98,7 @@
 
 
 //Customice recomend mail
-#define k_is_custom_recommend_mail NO
+#define k_is_custom_recommend_mail YES
 #define k_is_username_recommend_mail NO
 //#define k_subject_recommend_mail @"Sehen Sie sich die mobilcom-debitel Cloud an!"
 #define k_subject_recommend_mail @""
@@ -109,7 +109,7 @@
 #define k_is_image_background_preview_bottom_bar NO
 
 //Social customize
-#define k_is_custom_twitter NO
+#define k_is_custom_twitter YES
 #define k_custom_twitter_message @""
 
 #define k_is_custom_facebook NO
@@ -122,6 +122,6 @@
 #define k_text_to_autocomplete @"cloud.md.de"
 
 //Number of uploads shown in recents tab from the database
-#define k_number_uploads_shown 12
+#define k_number_uploads_shown 24
 //Set text of status bar white only for iOS 7. YES = White | NO = Black
 #define k_is_text_status_bar_white NO
