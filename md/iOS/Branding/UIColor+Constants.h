@@ -76,6 +76,9 @@
 //Text color of selected folder
 + (UIColor*)colorOfTxtSelectFolderToolbar;
 
+//Header section index color
++ (UIColor*)colorOfHeaderTableSectionFileList;
+
 //WEB VIEW
 
 //Color of webview background
