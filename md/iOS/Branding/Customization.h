@@ -2,7 +2,7 @@
 //  Customization.h
 //  ownCloud iOs Client
 //
-//  Created by OWNBRANDER on 2014-06-08 09:44:29 UTC
+//  Created by OWNBRANDER on 2014-06-08 09:45:04 UTC
 //
 //
 
@@ -85,7 +85,7 @@
 #define k_is_customize_uitabbar YES
 
 //Customize Unselected UITabBarItems (The images of tabBar should be the unseleted tabs)
-#define k_is_customize_unselectedUITabBarItems YES
+#define k_is_customize_unselectedUITabBarItems NO
 //Set Image on Preview Bottom toolBar on iPhone
 #define k_set_image_on_preview_bottom_toolBar_on_iPhone NO
 
